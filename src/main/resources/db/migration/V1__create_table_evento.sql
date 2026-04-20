@@ -1,0 +1,9 @@
+CREATE TABLE evento(
+	id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    local VARCHAR(500) NOT NULL,
+    nomeCantor VARCHAR (500) NOT NULL,
+    nomeEmpresa VARCHAR(500) NOT NULL,
+    data TIMESTAMP NOT NULL
+    setor VARCHAR(500) NOT NULL,
+    cadeira VARCHAR(500) NOT NULL,
+);
